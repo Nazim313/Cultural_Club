@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(assets/fonts/AgencyFB-Bold.ttf);
+}
+
+body {
+  color: #fff;
+  background-image: url(images/1stpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: myfont;
+}
+
+.menu_bar {
+  background: rgb(92, 99, 92);
+  text-align: center;
+}
+
+.menu_bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu_bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 10px 5px;
+
+}
+
+.menu_bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.active,
+.menu_bar ul li:hover {
+  background: #fff;
+  border-radius: 3px;
+}
+
+.menu_bar .fa {
+  margin-right: 6px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu_bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(92, 99, 92);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu_bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu_bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0px;
+  text-align: left;
+}
+
+.menu_bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu_bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #fff;
+  border-radius: 3px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Add padding to containers */
+.wrapper {
+  width: 100%;
+
+}
+
+.container {
+  padding: 16px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+  margin-bottom: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: white;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.checkname {
+  color: red !important;
+}
+
+.validname {
+  color: #2bab0d;
+}
+
+.btn {
+  padding: 13px 15px;
+  width: 150px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn_login {
+  font-size: 1.5rem;
+}
+
+#registration_form_container {
+  display: flex;
+  width: 90%;
+}
+
+#registration_form_container .left,
+#registration_form_container .right {
+  width: 45%;
+}
+
+#registration_form_container .right {
+  margin-left: 10%;
+}
+
+#registration_form_container .interest_field_choice label {
+  font-size: 1rem;
+}
+
+.background_signup {
+  background: url(images/page2.jpg) !important;
+  background-size: cover !important;
+}
+
+.background_show {
+  background: url(images/shop.jpg) no-repeat !important;
+  background-size: cover !important;
+}
+
+.contact_style {
+  background: url(images/page2.jpg) !important;
+  background-size: cover !important;
+}
+
+.contact_container {
+  position: relative;
+  width: 100%;
+
+}
+
+.font_place {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+
+.font_place h1 {
+  font-size: 3rem;
+}
+
+.font_place .about h2 {
+  font-size: 2rem;
+}
+
+.admin_container {
+  background: url(images/page1.jpg) !important;
+  background-size: cover !important;
+}
+
+.about_container {
+  background: url(images/page7.jpg) !important;
+  background-size: cover !important;
+}
+
+.gallery_container {
+  background: url(images/Gallery.jpg) !important;
+  background-size: cover !important;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+.login-page .form {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.login-page .form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#registration-success{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#registration-success p {
+  text-align: center;
+  font-size: 6em;
+  white-space:nowrap;
+}
+.registration-success-container{
+  background: url(images/page7.jpg) !important;
+  background-size: cover !important;
+}
